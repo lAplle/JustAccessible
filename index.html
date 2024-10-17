@@ -40,12 +40,16 @@
                 justify-content: center;
             }
             .decorative-img {
-                display: block;
-                margin: 10px auto;
-                width: 30%;
+                display: flex;
+                width: 40%;
             }
             .important-img {
+                display: flex;
                 width: 40%;
+            }
+            .images {
+                display: flex;
+                justify-content: space-between;
             }
             main {
                 display: flex;
@@ -94,17 +98,21 @@
                     Dogs are known to be loyal and loving companions. Below,
                     you'll find information about some popular dog breeds.
                 </p>
+            </section>
+            <section class="images">
+                <img
+                    src="https://images.ctfassets.net/ub3bwfd53mwy/hnMEKnwoUviZ8O7uZYL5H/2727fb776a8ffcc9a0bfe1e7aa48ebdf/Beagle_dog_panting.png"
+                    class="decorative-img"
+                    alt=""
+                />
 
-                <!-- Decorative image with alt="" -->
-                <img src="dog_decorative.jpg" class="decorative-img" alt="" />
-
-                <!-- Important image with descriptive alt -->
                 <img
                     src="https://www.dogster.com/wp-content/uploads/2024/03/Golden-Labrador-Retriever-in-the-grass-field.jpg"
                     class="important-img"
                     alt="Labrador Retriever - a friendly and loyal breed."
                 />
-
+            </section>
+            <section>
                 <h3>Popular Dog Breeds</h3>
                 <div class="tableContent">
                     <table>
