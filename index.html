@@ -100,14 +100,14 @@
     <body>
         <div class="headerContent">
             <header>
-                <h1>Learn About Different <u>Dog Breeds</u></h1>
+                <h1 tabindex="0">Learn About Different <u>Dog Breeds</u></h1>
             </header>
         </div>
 
         <main>
             <section>
-                <h2>About Dog Breeds</h2>
-                <p>
+                <h2 tabindex="0">About Dog Breeds</h2>
+                <p tabindex="0">
                     Dogs are known to be loyal and loving companions. Below,
                     you'll find information about some popular dog breeds.
                 </p>
@@ -123,12 +123,13 @@
                     src="https://www.dogster.com/wp-content/uploads/2024/03/Golden-Labrador-Retriever-in-the-grass-field.jpg"
                     class="important-img"
                     alt="Labrador Retriever - a friendly and loyal breed."
+                    tabindex="0"
                 />
             </section>
             <section>
-                <h2>Popular Dog Breeds</h2>
-                <div class="tableContent">
-                    <table>
+                <h2 tabindex="0">Popular Dog Breeds</h2>
+                <section class="tableContent">
+                    <table tabindex="0">
                         <thead>
                             <tr>
                                 <th scope="col">Breed</th>
@@ -158,11 +159,11 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
+                </section>
             </section>
 
             <section>
-                <h2>Contact Us</h2>
+                <h2 tabindex="0">Contact Us</h2>
                 <form action="/submit" method="POST">
                     <label for="name">Your Name</label>
                     <input type="text" id="name" name="name" required />
@@ -189,7 +190,7 @@
             </section>
 
             <section>
-                <h2>Useful Links</h2>
+                <h2 tabindex="0">Useful Links</h2>
                 <ul>
                     <li>
                         <a
